@@ -1,1 +1,1 @@
-"""Next Accelator API."""
+"""Hong Kong Frontier Talent Operating System API."""

@@ -12,6 +12,7 @@ npm-debug.log*
 
 # Python dependencies and generated output
 .venv/
+*.db
 __pycache__/
 *.py[cod]
 .pytest_cache/
