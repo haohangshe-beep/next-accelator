@@ -1,6 +1,6 @@
 {
   "files": {
-    "includes": ["app/**"]
+    "includes": ["app/**", "components/**", "lib/**", "next.config.ts"]
   },
   "linter": {
     "enabled": true,

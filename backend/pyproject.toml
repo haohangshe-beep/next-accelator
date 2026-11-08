@@ -1,12 +1,24 @@
 [project]
 name = "next-accelator-backend"
 version = "0.1.0"
-description = "FastAPI starter for the next-accelator study project."
+description = "Hong Kong FTOS API: skills, missions, passports, and employer certification."
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.162.0",
+    "pyjwt>=2.15.1",
+    "sqlalchemy>=2.1.8",
     "uvicorn>=0.54.0",
 ]
 
 [tool.uv]
 package = false
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
